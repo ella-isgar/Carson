@@ -13,6 +13,8 @@
 		309964922997F56900C63269 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 309964912997F56800C63269 /* Assets.xcassets */; };
 		309964942997FC1C00C63269 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309964932997FC1C00C63269 /* HomeVC.swift */; };
 		309964962997FC4300C63269 /* CreateSessionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309964952997FC4300C63269 /* CreateSessionVC.swift */; };
+		3099649829981E9500C63269 /* SSOVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3099649729981E9500C63269 /* SSOVC.swift */; };
+		3099649A299826CA00C63269 /* globalVars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30996499299826CA00C63269 /* globalVars.swift */; };
 		49DC8561299760910084236D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DC8560299760910084236D /* AppDelegate.swift */; };
 		49DC8563299760910084236D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DC8562299760910084236D /* SceneDelegate.swift */; };
 		49DC8568299760910084236D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49DC8566299760910084236D /* Main.storyboard */; };
@@ -29,6 +31,8 @@
 		309964912997F56800C63269 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		309964932997FC1C00C63269 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		309964952997FC4300C63269 /* CreateSessionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateSessionVC.swift; sourceTree = "<group>"; };
+		3099649729981E9500C63269 /* SSOVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSOVC.swift; sourceTree = "<group>"; };
+		30996499299826CA00C63269 /* globalVars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = globalVars.swift; sourceTree = "<group>"; };
 		49DC855D299760910084236D /* Carson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carson.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49DC8560299760910084236D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49DC8562299760910084236D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +80,8 @@
 				49DC8579299765F60084236D /* VC2.swift */,
 				3099648D2997EBC000C63269 /* VC3.swift */,
 				49DC8566299760910084236D /* Main.storyboard */,
+				3099649729981E9500C63269 /* SSOVC.swift */,
+				30996499299826CA00C63269 /* globalVars.swift */,
 				309964952997FC4300C63269 /* CreateSessionVC.swift */,
 				309964932997FC1C00C63269 /* HomeVC.swift */,
 				3099648F2997F41700C63269 /* VC4.swift */,
@@ -164,7 +170,9 @@
 				309964942997FC1C00C63269 /* HomeVC.swift in Sources */,
 				49DC856B299760910084236D /* Carson.xcdatamodeld in Sources */,
 				309964902997F41700C63269 /* VC4.swift in Sources */,
+				3099649829981E9500C63269 /* SSOVC.swift in Sources */,
 				309964962997FC4300C63269 /* CreateSessionVC.swift in Sources */,
+				3099649A299826CA00C63269 /* globalVars.swift in Sources */,
 				49DC8561299760910084236D /* AppDelegate.swift in Sources */,
 				49DC857A299765F60084236D /* VC2.swift in Sources */,
 				49DC8563299760910084236D /* SceneDelegate.swift in Sources */,

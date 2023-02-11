@@ -16,6 +16,8 @@ class WelcomeVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        view.backgroundColor = UIColor(named: "Light Beige")
+        
         //
         //signUpButton.titleLabel?.font =  UIFont(name: YourfontName, size: 20)
         //signUpButton.background(RoundedRectangle(cornerRadius: 8)

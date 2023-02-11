@@ -1,3 +1,2 @@
 # Carson
-# 2023 HackBeanpot
-# By EAE
+## 2023 HackBeanpot | By EAE

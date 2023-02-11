@@ -15,6 +15,10 @@
 		3099649829981E9500C63269 /* SSOVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3099649729981E9500C63269 /* SSOVC.swift */; };
 		3099649A299826CA00C63269 /* globalVars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30996499299826CA00C63269 /* globalVars.swift */; };
 		3099649C29982C1A00C63269 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3099649B29982C1A00C63269 /* User.swift */; };
+		309964A02998358600C63269 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3099649F2998358600C63269 /* Session.swift */; };
+		309964A2299835D600C63269 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309964A1299835D600C63269 /* Status.swift */; };
+		309964A42998360E00C63269 /* Driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309964A32998360E00C63269 /* Driver.swift */; };
+		309964A62998372B00C63269 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309964A52998372B00C63269 /* Car.swift */; };
 		49DC8561299760910084236D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DC8560299760910084236D /* AppDelegate.swift */; };
 		49DC8563299760910084236D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DC8562299760910084236D /* SceneDelegate.swift */; };
 		49DC8568299760910084236D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49DC8566299760910084236D /* Main.storyboard */; };
@@ -33,6 +37,10 @@
 		3099649729981E9500C63269 /* SSOVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSOVC.swift; sourceTree = "<group>"; };
 		30996499299826CA00C63269 /* globalVars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = globalVars.swift; sourceTree = "<group>"; };
 		3099649B29982C1A00C63269 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3099649F2998358600C63269 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		309964A1299835D600C63269 /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
+		309964A32998360E00C63269 /* Driver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Driver.swift; sourceTree = "<group>"; };
+		309964A52998372B00C63269 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		49DC855D299760910084236D /* Carson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carson.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49DC8560299760910084236D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49DC8562299760910084236D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +98,10 @@
 				49DC8571299760920084236D /* Info.plist */,
 				49DC8569299760910084236D /* Carson.xcdatamodeld */,
 				309964912997F56800C63269 /* Assets.xcassets */,
+				3099649F2998358600C63269 /* Session.swift */,
+				309964A1299835D600C63269 /* Status.swift */,
+				309964A32998360E00C63269 /* Driver.swift */,
+				309964A52998372B00C63269 /* Car.swift */,
 			);
 			path = Carson;
 			sourceTree = "<group>";
@@ -165,6 +177,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				309964A42998360E00C63269 /* Driver.swift in Sources */,
 				3099648E2997EBC000C63269 /* VC3.swift in Sources */,
 				309964942997FC1C00C63269 /* HomeVC.swift in Sources */,
 				49DC856B299760910084236D /* Carson.xcdatamodeld in Sources */,
@@ -172,7 +185,10 @@
 				3099649829981E9500C63269 /* SSOVC.swift in Sources */,
 				309964962997FC4300C63269 /* CreateSessionVC.swift in Sources */,
 				3099649A299826CA00C63269 /* globalVars.swift in Sources */,
+				309964A02998358600C63269 /* Session.swift in Sources */,
 				49DC8561299760910084236D /* AppDelegate.swift in Sources */,
+				309964A62998372B00C63269 /* Car.swift in Sources */,
+				309964A2299835D600C63269 /* Status.swift in Sources */,
 				3099649C29982C1A00C63269 /* User.swift in Sources */,
 				49DC857A299765F60084236D /* VC2.swift in Sources */,
 				49DC8563299760910084236D /* SceneDelegate.swift in Sources */,

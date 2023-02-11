@@ -12,7 +12,8 @@ class CreateSessionVC: UIViewController {
     @IBOutlet var userField: UITextField!
     
     
-    @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var label: UITextView!
+    
     
     // The moment after the segue happens to this view.
     override func viewDidLoad() {
@@ -22,8 +23,7 @@ class CreateSessionVC: UIViewController {
     
     @IBAction func didTapSave() {
         current_user = userField.text!
-        label.text = current_user
-        //updateUserList()
+        updateUserList()
     }
     
     func updateUserList() {

@@ -7,13 +7,12 @@
 
 import UIKit
 
-class VC1: UIViewController {
+class WelcomeVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
     }
-    
 
     /*
     // MARK: - Navigation

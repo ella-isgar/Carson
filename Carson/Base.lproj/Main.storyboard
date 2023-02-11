@@ -44,7 +44,7 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OlG-Dd-zii">
-                                <rect key="frame" x="149" y="689" width="95" height="45"/>
+                                <rect key="frame" x="149" y="773" width="95" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Log in">
                                     <color key="baseForegroundColor" name="AccentColor"/>
@@ -55,12 +55,12 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KRi-fS-W70">
-                                <rect key="frame" x="149" y="754" width="95" height="50"/>
+                                <rect key="frame" x="149" y="715" width="95" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="Sign up"/>
                                 <connections>
-                                    <segue destination="mR4-R4-vYN" kind="show" id="poK-I6-1a3"/>
+                                    <segue destination="mR4-R4-vYN" kind="presentation" identifier="signIn" id="poK-I6-1a3"/>
                                 </connections>
                             </button>
                         </subviews>

@@ -19,7 +19,7 @@
 		49DC8568299760910084236D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49DC8566299760910084236D /* Main.storyboard */; };
 		49DC856B299760910084236D /* Carson.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 49DC8569299760910084236D /* Carson.xcdatamodeld */; };
 		49DC8570299760920084236D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49DC856E299760920084236D /* LaunchScreen.storyboard */; };
-		49DC8578299765690084236D /* VC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DC8577299765690084236D /* VC1.swift */; };
+		49DC8578299765690084236D /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DC8577299765690084236D /* WelcomeVC.swift */; };
 		49DC857A299765F60084236D /* VC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DC8579299765F60084236D /* VC2.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +38,7 @@
 		49DC856A299760910084236D /* Carson.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Carson.xcdatamodel; sourceTree = "<group>"; };
 		49DC856F299760920084236D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49DC8571299760920084236D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		49DC8577299765690084236D /* VC1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC1.swift; sourceTree = "<group>"; };
+		49DC8577299765690084236D /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
 		49DC8579299765F60084236D /* VC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,7 +75,7 @@
 				49DC8560299760910084236D /* AppDelegate.swift */,
 				49DC8562299760910084236D /* SceneDelegate.swift */,
 				30996499299826CA00C63269 /* globalVars.swift */,
-				49DC8577299765690084236D /* VC1.swift */,
+				49DC8577299765690084236D /* WelcomeVC.swift */,
 				3099649729981E9500C63269 /* SSOVC.swift */,
 				49DC8579299765F60084236D /* VC2.swift */,
 				3099648D2997EBC000C63269 /* VC3.swift */,
@@ -172,7 +172,7 @@
 				49DC8561299760910084236D /* AppDelegate.swift in Sources */,
 				49DC857A299765F60084236D /* VC2.swift in Sources */,
 				49DC8563299760910084236D /* SceneDelegate.swift in Sources */,
-				49DC8578299765690084236D /* VC1.swift in Sources */,
+				49DC8578299765690084236D /* WelcomeVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

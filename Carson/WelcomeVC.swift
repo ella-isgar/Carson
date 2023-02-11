@@ -9,8 +9,18 @@ import UIKit
 
 class WelcomeVC: UIViewController {
 
+    @IBOutlet weak var signUpButton: UIButton!
+    
+    @IBOutlet weak var logInButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //
+        //signUpButton.titleLabel?.font =  UIFont(name: YourfontName, size: 20)
+        //signUpButton.background(RoundedRectangle(cornerRadius: 8)
+        signUpButton.backgroundColor = UIColor(named: "LightArmyGreen")
+        logInButton.backgroundColor = UIColor(named: "DarkArmyGreen")
 
     }
 

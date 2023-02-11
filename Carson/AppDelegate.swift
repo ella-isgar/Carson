@@ -15,8 +15,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        disableNoisyLayoutConstraintWarnings()
+        
         return true
     }
+
+    // Temporarily disable noisy layout constraint warnings; these should still be fixed though!
+    private func disableNoisyLayoutConstraintWarnings() {
+        // Disable NSLayoutConstraints warnings to clean up debug console.
+        // TODO: We need to fix these, but right now these are cluttering up the debug console.
+        UserDefaults.standard.setValue(false, forKey: "_UIConstraintBasedLayoutLogUnsatisfiable")
+}
 
     // MARK: UISceneSession Lifecycle
 

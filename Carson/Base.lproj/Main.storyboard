@@ -90,7 +90,8 @@
                     </view>
                     <navigationItem key="navigationItem" id="fGR-ij-jT4"/>
                     <connections>
-                        <outlet property="field" destination="4cq-14-og8" id="458-X3-waZ"/>
+                        <outlet property="passwordField" destination="mMn-fa-KMv" id="vhT-p5-B4M"/>
+                        <outlet property="usernameField" destination="4cq-14-og8" id="x03-W9-6e8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q8T-F1-Dwu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -293,6 +294,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="Next"/>
                                 <connections>
+                                    <action selector="didTapSave" destination="vPu-rK-qI5" eventType="touchUpInside" id="DoN-gv-6qh"/>
                                     <segue destination="8up-JI-lT0" kind="presentation" id="TEo-1N-cEz"/>
                                 </connections>
                             </button>
@@ -349,6 +351,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="5n7-yl-TgX"/>
                     <connections>
+                        <outlet property="fullNameField" destination="aL6-E3-GJ0" id="imp-yq-ElX"/>
                         <outlet property="label" destination="TWX-0X-D1O" id="9Xq-Op-kId"/>
                     </connections>
                 </viewController>
@@ -470,6 +473,9 @@
                         <viewLayoutGuide key="safeArea" id="kPc-ue-fhO"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
+                    <connections>
+                        <outlet property="label" destination="94U-cd-eQY" id="rq2-5v-yUf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JeP-KF-iho" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

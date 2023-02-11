@@ -88,7 +88,6 @@
 				49DC8577299765690084236D /* WelcomeVC.swift */,
 				3099649729981E9500C63269 /* SSOVC.swift */,
 				49DC8579299765F60084236D /* VC2.swift */,
-				3099649B29982C1A00C63269 /* User.swift */,
 				3099648D2997EBC000C63269 /* VC3.swift */,
 				3099648F2997F41700C63269 /* VC4.swift */,
 				309964932997FC1C00C63269 /* HomeVC.swift */,
@@ -98,10 +97,11 @@
 				49DC8571299760920084236D /* Info.plist */,
 				49DC8569299760910084236D /* Carson.xcdatamodeld */,
 				309964912997F56800C63269 /* Assets.xcassets */,
-				3099649F2998358600C63269 /* Session.swift */,
-				309964A1299835D600C63269 /* Status.swift */,
+				3099649B29982C1A00C63269 /* User.swift */,
 				309964A32998360E00C63269 /* Driver.swift */,
 				309964A52998372B00C63269 /* Car.swift */,
+				3099649F2998358600C63269 /* Session.swift */,
+				309964A1299835D600C63269 /* Status.swift */,
 			);
 			path = Carson;
 			sourceTree = "<group>";

@@ -18,11 +18,15 @@ class WelcomeVC: UIViewController {
         
         view.backgroundColor = UIColor(named: "Light Beige")
         
-        //
-        //signUpButton.titleLabel?.font =  UIFont(name: YourfontName, size: 20)
-        //signUpButton.background(RoundedRectangle(cornerRadius: 8)
-        signUpButton.backgroundColor = UIColor(named: "LightArmyGreen")
-        logInButton.backgroundColor = UIColor(named: "DarkArmyGreen")
+        // SIGN UP BUTTON
+        signUpButton.backgroundColor = UIColor(named: "Light Army Green")
+        signUpButton.layer.cornerRadius = 10
+        signUpButton.layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner]
+        
+        // LOG IN BUTTON
+        logInButton.backgroundColor = UIColor(named: "Dark Army Green")
+        logInButton.layer.cornerRadius = 10
+        logInButton.layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner]
 
     }
 

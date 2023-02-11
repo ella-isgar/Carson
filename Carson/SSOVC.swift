@@ -9,16 +9,19 @@ import UIKit
 
 class SSOVC: UIViewController {
     
-    @IBOutlet var field: UITextField!
+    @IBOutlet var usernameField: UITextField!
     
-    
+    @IBOutlet var passwordField: UITextField!
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     
     @IBAction func didTapSave() {
-        username = field.text!
+        username = usernameField.text!
+        password = passwordField.text!
+        
     }
 
 

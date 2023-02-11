@@ -8,3 +8,5 @@
 import Foundation
 
 var username = "name"
+var password = "123"
+var full_name = ""

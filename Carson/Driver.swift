@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Driver: User {
+class Driver {
     var user: User
     var car: Car
     

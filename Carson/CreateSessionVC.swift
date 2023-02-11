@@ -11,7 +11,8 @@ class CreateSessionVC: UIViewController {
     
     @IBOutlet var userField: UITextField!
     
-    @IBOutlet weak var label: UITextView!
+    
+    @IBOutlet weak var label: UILabel!
     
     // The moment after the segue happens to this view.
     override func viewDidLoad() {

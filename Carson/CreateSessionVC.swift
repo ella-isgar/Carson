@@ -60,7 +60,11 @@ class CreateSessionVC: UIViewController {
     
     @IBAction func addRider() {
         var size = upcomingSessions.count
+        print("USERS")
+        print(users.count)
         print(size)
+        print("HELP")
+        print(ridersField.text!)
         if (users[ridersField.text!] != nil) {
             let u = users[ridersField.text!]!
             upcomingSessions[size - 1].riders.append(u)

@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3036AB5129986D3E00345239 /* VCConfirmation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3036AB5029986D3E00345239 /* VCConfirmation.swift */; };
-		3099648E2997EBC000C63269 /* VC3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3099648D2997EBC000C63269 /* VC3.swift */; };
+		3099648E2997EBC000C63269 /* AddCarInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3099648D2997EBC000C63269 /* AddCarInfoVC.swift */; };
 		309964902997F41700C63269 /* VC4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3099648F2997F41700C63269 /* VC4.swift */; };
 		309964922997F56900C63269 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 309964912997F56800C63269 /* Assets.xcassets */; };
 		309964942997FC1C00C63269 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309964932997FC1C00C63269 /* HomeVC.swift */; };
@@ -25,7 +25,7 @@
 		49DC856B299760910084236D /* Carson.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 49DC8569299760910084236D /* Carson.xcdatamodeld */; };
 		49DC8570299760920084236D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49DC856E299760920084236D /* LaunchScreen.storyboard */; };
 		49DC8578299765690084236D /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DC8577299765690084236D /* WelcomeVC.swift */; };
-		49DC857A299765F60084236D /* VC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DC8579299765F60084236D /* VC2.swift */; };
+		49DC857A299765F60084236D /* CreateProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DC8579299765F60084236D /* CreateProfileVC.swift */; };
 		49DC8587299842800084236D /* BebasNeue-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 49DC8586299842800084236D /* BebasNeue-Regular.otf */; };
 		49DC85F6299842AE0084236D /* Nexa-Trial-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49DC85D2299842AE0084236D /* Nexa-Trial-ExtraBold.ttf */; };
 		49DC85F7299842AE0084236D /* Nexa-Trial-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49DC85D3299842AE0084236D /* Nexa-Trial-Heavy.ttf */; };
@@ -67,7 +67,7 @@
 
 /* Begin PBXFileReference section */
 		3036AB5029986D3E00345239 /* VCConfirmation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCConfirmation.swift; sourceTree = "<group>"; };
-		3099648D2997EBC000C63269 /* VC3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC3.swift; sourceTree = "<group>"; };
+		3099648D2997EBC000C63269 /* AddCarInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCarInfoVC.swift; sourceTree = "<group>"; };
 		3099648F2997F41700C63269 /* VC4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC4.swift; sourceTree = "<group>"; };
 		309964912997F56800C63269 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		309964932997FC1C00C63269 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
@@ -86,7 +86,7 @@
 		49DC856F299760920084236D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49DC8571299760920084236D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49DC8577299765690084236D /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
-		49DC8579299765F60084236D /* VC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC2.swift; sourceTree = "<group>"; };
+		49DC8579299765F60084236D /* CreateProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfileVC.swift; sourceTree = "<group>"; };
 		49DC8586299842800084236D /* BebasNeue-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BebasNeue-Regular.otf"; sourceTree = "<group>"; };
 		49DC85D2299842AE0084236D /* Nexa-Trial-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nexa-Trial-ExtraBold.ttf"; sourceTree = "<group>"; };
 		49DC85D3299842AE0084236D /* Nexa-Trial-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nexa-Trial-Heavy.ttf"; sourceTree = "<group>"; };
@@ -161,8 +161,8 @@
 				30996499299826CA00C63269 /* globalVars.swift */,
 				49DC8577299765690084236D /* WelcomeVC.swift */,
 				3099649729981E9500C63269 /* SSOVC.swift */,
-				49DC8579299765F60084236D /* VC2.swift */,
-				3099648D2997EBC000C63269 /* VC3.swift */,
+				49DC8579299765F60084236D /* CreateProfileVC.swift */,
+				3099648D2997EBC000C63269 /* AddCarInfoVC.swift */,
 				3099648F2997F41700C63269 /* VC4.swift */,
 				309964932997FC1C00C63269 /* HomeVC.swift */,
 				309964952997FC4300C63269 /* CreateSessionVC.swift */,
@@ -341,7 +341,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3099648E2997EBC000C63269 /* VC3.swift in Sources */,
+				3099648E2997EBC000C63269 /* AddCarInfoVC.swift in Sources */,
 				309964942997FC1C00C63269 /* HomeVC.swift in Sources */,
 				49DC856B299760910084236D /* Carson.xcdatamodeld in Sources */,
 				309964902997F41700C63269 /* VC4.swift in Sources */,
@@ -354,7 +354,7 @@
 				309964A2299835D600C63269 /* Status.swift in Sources */,
 				3036AB5129986D3E00345239 /* VCConfirmation.swift in Sources */,
 				3099649C29982C1A00C63269 /* User.swift in Sources */,
-				49DC857A299765F60084236D /* VC2.swift in Sources */,
+				49DC857A299765F60084236D /* CreateProfileVC.swift in Sources */,
 				49DC8563299760910084236D /* SceneDelegate.swift in Sources */,
 				49DC8578299765690084236D /* WelcomeVC.swift in Sources */,
 			);

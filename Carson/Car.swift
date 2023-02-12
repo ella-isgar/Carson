@@ -7,6 +7,8 @@
 
 import Foundation
 
+var cars: [String: Car] = [:]
+
 class Car {
     var make: String
     var model: String
@@ -24,3 +26,19 @@ class Car {
         self.capacity = ""
     }
 }
+
+
+func createCar(make: String, model: String, color: String, year: String, capacity: String, license: String) {
+    
+    var newCar = Car()
+    
+    newCar.make = make
+    newCar.model = model
+    newCar.color = color
+    newCar.year = year
+    newCar.capacity = capacity
+    newCar.license = license
+    
+    cars[license] = newCar
+}
+

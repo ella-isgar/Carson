@@ -7,7 +7,7 @@
 
 import UIKit
 
-class VC2: UIViewController {
+class CreateProfileVC: UIViewController {
 
     
     @IBOutlet weak var usernameLabel: UILabel!
@@ -28,20 +28,19 @@ class VC2: UIViewController {
         usernameLabel.text = temp_username
 
         
-        fullNameField.text = "Enter name here."
-        
-        pronounsField.text = "Enter pronouns here."
-        
-        phoneNumberField.text = "Enter number here."
-        
-        organizationField.text = "Enter organization here."
+//        fullNameField.text = "Enter name here."
+//
+//        pronounsField.text = "Enter pronouns here."
+//
+//        phoneNumberField.text = "Enter number here."
+//
+//        organizationField.text = "Enter organization here."
         
         isWillingSwitch.isOn = false
     }
     
     
     @IBAction func createUserProfile(_ sender: Any) {
-        
         createUser(org: organizationField.text!, name: fullNameField.text!, pro: pronounsField.text!, num: phoneNumberField.text!, isWilling: isWillingSwitch.isOn)
     }
 }

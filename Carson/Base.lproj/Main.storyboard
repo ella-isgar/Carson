@@ -365,6 +365,7 @@
                                 <rect key="frame" x="270" y="727.66666666666652" width="99" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="46"/>
+                                <color key="tintColor" name="Dark Army Green"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal">
                                     <color key="titleColor" name="Light Army Green"/>
@@ -379,6 +380,7 @@
                                 <rect key="frame" x="16" y="727.66666666666652" width="100" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="46"/>
+                                <color key="tintColor" name="Dark Army Green"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal">
                                     <color key="titleColor" name="Light Army Green"/>
@@ -386,6 +388,7 @@
                                 </state>
                                 <connections>
                                     <action selector="createUserProfile:" destination="vPu-rK-qI5" eventType="touchUpInside" id="Xlj-rj-eyQ"/>
+                                    <segue destination="UCQ-lU-BCf" kind="show" id="CuS-Fa-pf8"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -583,7 +586,7 @@
         <!--WelcomeViewController-->
         <scene sceneID="RTB-gz-F0T">
             <objects>
-                <viewController title="WelcomeViewController" id="UCQ-lU-BCf" customClass="WelcomeViewController" customModule="Carson" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="WelcomeViewController" modalPresentationStyle="fullScreen" id="UCQ-lU-BCf" customClass="WelcomeViewController" customModule="Carson" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="beV-01-F37">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -622,6 +625,7 @@
                         <viewLayoutGuide key="safeArea" id="auU-oX-hen"/>
                         <color key="backgroundColor" name="Light Beige"/>
                     </view>
+                    <navigationItem key="navigationItem" id="k90-aw-ciF"/>
                     <connections>
                         <outlet property="createAccountButton" destination="olG-Pa-HEI" id="6PO-pe-vcM"/>
                     </connections>

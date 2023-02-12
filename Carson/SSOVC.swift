@@ -15,6 +15,9 @@ class SSOVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        view.backgroundColor = UIColor(named: "Clear Color")
+        
     }
     
     @IBAction func didTapSave() {

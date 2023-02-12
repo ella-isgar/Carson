@@ -14,6 +14,8 @@ class WelcomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         createAccountButton.titleLabel?.textAlignment = NSTextAlignment.center
+        
+        makeFakeUsers()
     }
     
 

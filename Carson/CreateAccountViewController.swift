@@ -1,5 +1,5 @@
 //
-//  WelcomeViewController.swift
+//  CreateAccountViewController.swift
 //  Carson
 //
 //  Created by Ella Isgar on 2/12/23.
@@ -7,13 +7,12 @@
 
 import UIKit
 
-class WelcomeViewController: UIViewController {
+class CreateAccountViewController: UIViewController {
 
-    @IBOutlet weak var createAccountButton: UIButton!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        createAccountButton.titleLabel?.textAlignment = NSTextAlignment.center
+
+        // Do any additional setup after loading the view.
     }
     
 

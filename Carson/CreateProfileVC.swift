@@ -43,4 +43,8 @@ class CreateProfileVC: UIViewController {
     @IBAction func createUserProfile(_ sender: Any) {
         createUser(org: organizationField.text!, name: fullNameField.text!, pro: pronounsField.text!, num: phoneNumberField.text!, isWilling: isWillingSwitch.isOn)
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+    }
 }

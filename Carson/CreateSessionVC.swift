@@ -67,9 +67,12 @@ class CreateSessionVC: UIViewController {
             riders.text = riders.text + "\n" + ridersField.text! + " or " + u.name + " was added."
         } else {
             
+            print("NOT FOUND")
+            
         }
         ridersField.text = ""
         print(size)
+        print("RIDERS")
         print(upcomingSessions[0].riders)
     }
  

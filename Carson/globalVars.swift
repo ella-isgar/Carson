@@ -10,8 +10,8 @@ import Foundation
 var isKnownUser = false
 
 // user attributes
-var temp_username = "doe.j"
-var temp_password = "123456"
+var temp_username = ""
+var temp_password = ""
 
 // example users
 var user1 = User(username: "rodgers_t", name: "Timmy Rodgers", org: "Wood Mackenzie")

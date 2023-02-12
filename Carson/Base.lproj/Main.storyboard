@@ -543,10 +543,10 @@
             </objects>
             <point key="canvasLocation" x="2268" y="-913"/>
         </scene>
-        <!--View Controller-->
+        <!--WelcomeViewController-->
         <scene sceneID="RTB-gz-F0T">
             <objects>
-                <viewController id="UCQ-lU-BCf" sceneMemberID="viewController">
+                <viewController title="WelcomeViewController" id="UCQ-lU-BCf" customClass="WelcomeViewController" customModule="Carson" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="beV-01-F37">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

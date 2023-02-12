@@ -225,11 +225,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="S9h-bk-R07">
-                                <rect key="frame" x="113" y="533" width="263" height="68"/>
+                                <rect key="frame" x="113" y="533" width="262" height="68"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             </datePicker>
                             <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="loV-9y-Ik1">
-                                <rect key="frame" x="107" y="593" width="274" height="68"/>
+                                <rect key="frame" x="107" y="593" width="273" height="68"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             </datePicker>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iAE-Md-c93">
@@ -526,7 +526,7 @@
                                 <buttonConfiguration key="configuration" style="tinted" title="Create Account"/>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Welcome" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="94U-cd-eQY">
-                                <rect key="frame" x="114" y="59" width="179" height="48"/>
+                                <rect key="frame" x="107" y="59" width="179" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="29"/>

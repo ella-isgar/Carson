@@ -7,8 +7,6 @@
 
 import Foundation
 
-var isKnownUser = false
-
 // user attributes
 var temp_username = "doe.j"
 var temp_password = "123456"

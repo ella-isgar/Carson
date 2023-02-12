@@ -20,14 +20,6 @@ class SSOVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if isKnownUser {
-            knownLogIn.isHidden = false
-            newLogIn.isHidden = true
-        } else {
-            knownLogIn.isHidden = true
-            newLogIn.isHidden = false
-        }
-        
         view.backgroundColor = UIColor(named: "Clear Color")
     }
     

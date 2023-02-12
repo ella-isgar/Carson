@@ -8,11 +8,15 @@
 import UIKit
 
 class HomeVC: UIViewController {
+    
+    @IBOutlet weak var full_name: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        print(users)
+        let u : User? = users[temp_username]
+        full_name.text = u?.name
+        
     }
     
 

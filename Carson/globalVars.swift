@@ -8,8 +8,16 @@
 import Foundation
 
 // user attributes
-var temp_username = "doe.j"
-var temp_password = "123456"
+var temp_username = ""
+var temp_password = ""
+
+// example users
+var user1 = User(username: "rodgers_t", name: "Timmy Rodgers", org: "Wood Mackenzie")
+var user2 = User(username: "lee_a", name: "Ann Lee", org: "Liberty Mutual Insurance")
+var user3 = User(username: "haly_s", name: "Sally Haly", org: "Wolters Kluwer")
+
+
+
 
 /*
 var current_user = User(start: "", dest: "", username: username, password: password, name: "", pronouns: "", phoneNum: "", organization: "")

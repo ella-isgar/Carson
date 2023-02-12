@@ -9,6 +9,7 @@ import Foundation
 
 var users: [String: User] = [:]
 
+
 class User {
     var organization: String
     var username: String
@@ -39,11 +40,27 @@ class User {
         self.isDriver = false
         self.car = Car()
     }
+    
+    init(username : String, name : String, org: String) {
+        self.organization = org
+        self.username = username
+        self.password = ""
+        
+        self.name = name
+        self.pronouns = ""
+        self.phoneNum = ""
+        
+        self.start = ""
+        self.dest = ""
+        
+        self.isDriver = false
+        self.car = Car()
+    }
 }
 
 func createUser(org: String, name: String, pro: String, num: String, isWilling: Bool) {
     
-    var newUser = User()
+    let newUser = User()
     
     newUser.organization = org
     newUser.username = temp_username
@@ -55,5 +72,10 @@ func createUser(org: String, name: String, pro: String, num: String, isWilling: 
     
     newUser.isDriver = isWilling
     
-    users[name] = newUser
+    users[temp_username] = newUser
 }
+
+
+
+
+

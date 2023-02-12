@@ -75,6 +75,12 @@ func createUser(org: String, name: String, pro: String, num: String, isWilling: 
     users[temp_username] = newUser
 }
 
+func makeFakeUsers() {
+    users["rodgers_t"] = user1
+    users["lee_a"] = user2
+    users["haly_s"] = user3
+}
+
 
 
 

@@ -57,17 +57,16 @@ class CreateSessionVC: UIViewController {
     
     @IBAction func createSession(_ sender: Any) {
         makeSession(passengers: [String](), pickupLoc: startField.text!, dropoffLoc: destField.text!, pickupTime: leaveTime.date.formatted(), dropoffTime: arriveTime.date.formatted())
-        print(upcomingSessions)
     }
     
     @IBAction func addRider() {
-        var size = upcomingSessions.count
-        if (users[ridersField.text!] != nil) {
+        let size = upcomingSessions.count
+        if(users[ridersField.text!] != nil) {
             let u = users[ridersField.text!]!
             upcomingSessions[size - 1].riders.append(u)
             riders.text = riders.text + "\n" + ridersField.text! + " or " + u.name + " was added."
         } else {
-            var dialogMessage = UIAlertController(title: "Error", message: "User was not found :(", preferredStyle: .alert)
+            let dialogMessage = UIAlertController(title: "Error", message: "User was not found :(", preferredStyle: .alert)
             let ok = UIAlertAction(title: "OK", style: .default, handler: { (action) -> Void in
                 print("Ok button tapped")
              })
@@ -76,6 +75,7 @@ class CreateSessionVC: UIViewController {
             // Present Alert to
             self.present(dialogMessage, animated: true, completion: nil)
         }
+        print(upcomingSessions[size - 1].riders)
         ridersField.text = ""
     }
  

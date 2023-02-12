@@ -15,7 +15,6 @@ class HomeVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(users)
         let u : User? = users[temp_username]
         full_name.text = u?.name
         viewSessions()
@@ -24,8 +23,7 @@ class HomeVC: UIViewController {
     func viewSessions() {
         let driver = users[temp_username]?.name
         for sess in upcomingSessions {
-            upcoming_sessionsDis.text = upcoming_sessionsDis.text + "\n CC session: from " + sess.pickupLocations + " to " + sess.dropoffLocations
-            print(sess.pickupTime)
+            upcoming_sessionsDis.text = upcoming_sessionsDis.text + "\n CC session: from " + sess.pickupLocations + " at " + sess.pickupTime + "to " + sess.dropoffLocations + " at " + sess.dropoffTime
         }
     }
     

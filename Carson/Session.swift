@@ -13,14 +13,12 @@ var pastSession = [Session]()
 
 class Session {
     var status: Status
-//    var driver: User
     var riders: Array<User>
     var pickupLocations: String
     var dropoffLocations: String
 
   init() {
       self.status = Status.SCHEDULED
-//      self.driver = users[temp_username]
       self.riders = [User]()
       self.pickupLocations = ""
       self.dropoffLocations = ""

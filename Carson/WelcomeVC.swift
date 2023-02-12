@@ -27,7 +27,6 @@ class WelcomeVC: UIViewController {
         logInButton.backgroundColor = UIColor(named: "Dark Army Green")
         logInButton.layer.cornerRadius = 10
         logInButton.layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner]
-
     }
 
     /*

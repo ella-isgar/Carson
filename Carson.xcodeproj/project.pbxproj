@@ -7,9 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3036AB5129986D3E00345239 /* VCConfirmation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3036AB5029986D3E00345239 /* VCConfirmation.swift */; };
 		3099648E2997EBC000C63269 /* AddCarInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3099648D2997EBC000C63269 /* AddCarInfoVC.swift */; };
-		309964902997F41700C63269 /* VC4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3099648F2997F41700C63269 /* VC4.swift */; };
 		309964922997F56900C63269 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 309964912997F56800C63269 /* Assets.xcassets */; };
 		309964942997FC1C00C63269 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309964932997FC1C00C63269 /* HomeVC.swift */; };
 		309964962997FC4300C63269 /* CreateSessionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309964952997FC4300C63269 /* CreateSessionVC.swift */; };
@@ -26,49 +24,10 @@
 		49DC8570299760920084236D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49DC856E299760920084236D /* LaunchScreen.storyboard */; };
 		49DC8578299765690084236D /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DC8577299765690084236D /* WelcomeVC.swift */; };
 		49DC857A299765F60084236D /* CreateProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DC8579299765F60084236D /* CreateProfileVC.swift */; };
-		49DC8587299842800084236D /* BebasNeue-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 49DC8586299842800084236D /* BebasNeue-Regular.otf */; };
-		49DC85F6299842AE0084236D /* Nexa-Trial-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49DC85D2299842AE0084236D /* Nexa-Trial-ExtraBold.ttf */; };
-		49DC85F7299842AE0084236D /* Nexa-Trial-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49DC85D3299842AE0084236D /* Nexa-Trial-Heavy.ttf */; };
-		49DC85F8299842AE0084236D /* Nexa-Trial-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49DC85D4299842AE0084236D /* Nexa-Trial-Thin.ttf */; };
-		49DC85F9299842AE0084236D /* Nexa-Trial-RegularItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49DC85D5299842AE0084236D /* Nexa-Trial-RegularItalic.ttf */; };
-		49DC85FA299842AE0084236D /* NexaText-Trial-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49DC85D6299842AE0084236D /* NexaText-Trial-Light.ttf */; };
-		49DC85FB299842AE0084236D /* Nexa-Trial-HeavyItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49DC85D7299842AE0084236D /* Nexa-Trial-HeavyItalic.ttf */; };
-		49DC85FC299842AE0084236D /* Nexa-Trial-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49DC85D8299842AE0084236D /* Nexa-Trial-LightItalic.ttf */; };
-		49DC85FD299842AE0084236D /* Nexa-Trial-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49DC85D9299842AE0084236D /* Nexa-Trial-Book.ttf */; };
-		49DC85FE299842AE0084236D /* Nexa-Trial-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49DC85DA299842AE0084236D /* Nexa-Trial-Bold.ttf */; };
-		49DC85FF299842AE0084236D /* NexaText-Trial-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49DC85DB299842AE0084236D /* NexaText-Trial-Book.ttf */; };
-		49DC8600299842AE0084236D /* Nexa-Trial-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49DC85DC299842AE0084236D /* Nexa-Trial-ExtraLightItalic.ttf */; };
-		49DC8601299842AE0084236D /* NexaText-Trial-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49DC85DD299842AE0084236D /* NexaText-Trial-Bold.ttf */; };
-		49DC8602299842AE0084236D /* NexaText-Trial-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49DC85DE299842AE0084236D /* NexaText-Trial-Thin.ttf */; };
-		49DC8603299842AE0084236D /* Nexa-Trial-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49DC85DF299842AE0084236D /* Nexa-Trial-Light.ttf */; };
-		49DC8604299842AE0084236D /* NexaText-Trial-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49DC85E0299842AE0084236D /* NexaText-Trial-Heavy.ttf */; };
-		49DC8605299842AE0084236D /* Nexa-Trial-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49DC85E1299842AE0084236D /* Nexa-Trial-BlackItalic.ttf */; };
-		49DC8606299842AE0084236D /* Nexa-Trial-BookItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49DC85E2299842AE0084236D /* Nexa-Trial-BookItalic.ttf */; };
-		49DC8607299842AE0084236D /* NexaText-Trial-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49DC85E3299842AE0084236D /* NexaText-Trial-BoldItalic.ttf */; };
-		49DC8608299842AE0084236D /* Nexa-Trial-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49DC85E4299842AE0084236D /* Nexa-Trial-Black.ttf */; };
-		49DC8609299842AE0084236D /* NexaText-Trial-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49DC85E5299842AE0084236D /* NexaText-Trial-ThinItalic.ttf */; };
-		49DC860A299842AE0084236D /* NexaText-Trial-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49DC85E6299842AE0084236D /* NexaText-Trial-ExtraBold.ttf */; };
-		49DC860B299842AE0084236D /* NexaText-Trial-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49DC85E7299842AE0084236D /* NexaText-Trial-ExtraLight.ttf */; };
-		49DC860C299842AE0084236D /* NexaText-Trial-HeavyItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49DC85E8299842AE0084236D /* NexaText-Trial-HeavyItalic.ttf */; };
-		49DC860D299842AE0084236D /* NexaText-Trial-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49DC85E9299842AE0084236D /* NexaText-Trial-LightItalic.ttf */; };
-		49DC860E299842AE0084236D /* NexaText-Trial-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49DC85EA299842AE0084236D /* NexaText-Trial-ExtraLightItalic.ttf */; };
-		49DC860F299842AE0084236D /* NexaText-Trial-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49DC85EB299842AE0084236D /* NexaText-Trial-ExtraBoldItalic.ttf */; };
-		49DC8610299842AE0084236D /* NexaText-Trial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49DC85EC299842AE0084236D /* NexaText-Trial-Regular.ttf */; };
-		49DC8611299842AE0084236D /* NexaText-Trial-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49DC85ED299842AE0084236D /* NexaText-Trial-BlackItalic.ttf */; };
-		49DC8612299842AE0084236D /* NexaText-Trial-RegularItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49DC85EE299842AE0084236D /* NexaText-Trial-RegularItalic.ttf */; };
-		49DC8613299842AE0084236D /* Nexa-Trial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49DC85EF299842AE0084236D /* Nexa-Trial-Regular.ttf */; };
-		49DC8614299842AE0084236D /* Nexa-Trial-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49DC85F0299842AE0084236D /* Nexa-Trial-ExtraLight.ttf */; };
-		49DC8615299842AE0084236D /* Nexa-Trial-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49DC85F1299842AE0084236D /* Nexa-Trial-ThinItalic.ttf */; };
-		49DC8616299842AE0084236D /* Nexa-Trial-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49DC85F2299842AE0084236D /* Nexa-Trial-BoldItalic.ttf */; };
-		49DC8617299842AE0084236D /* Nexa-Trial-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49DC85F3299842AE0084236D /* Nexa-Trial-ExtraBoldItalic.ttf */; };
-		49DC8618299842AE0084236D /* NexaText-Trial-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49DC85F4299842AE0084236D /* NexaText-Trial-Black.ttf */; };
-		49DC8619299842AE0084236D /* NexaText-Trial-BookItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49DC85F5299842AE0084236D /* NexaText-Trial-BookItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3036AB5029986D3E00345239 /* VCConfirmation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCConfirmation.swift; sourceTree = "<group>"; };
 		3099648D2997EBC000C63269 /* AddCarInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCarInfoVC.swift; sourceTree = "<group>"; };
-		3099648F2997F41700C63269 /* VC4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC4.swift; sourceTree = "<group>"; };
 		309964912997F56800C63269 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		309964932997FC1C00C63269 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		309964952997FC4300C63269 /* CreateSessionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateSessionVC.swift; sourceTree = "<group>"; };
@@ -87,43 +46,6 @@
 		49DC8571299760920084236D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49DC8577299765690084236D /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
 		49DC8579299765F60084236D /* CreateProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfileVC.swift; sourceTree = "<group>"; };
-		49DC8586299842800084236D /* BebasNeue-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BebasNeue-Regular.otf"; sourceTree = "<group>"; };
-		49DC85D2299842AE0084236D /* Nexa-Trial-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nexa-Trial-ExtraBold.ttf"; sourceTree = "<group>"; };
-		49DC85D3299842AE0084236D /* Nexa-Trial-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nexa-Trial-Heavy.ttf"; sourceTree = "<group>"; };
-		49DC85D4299842AE0084236D /* Nexa-Trial-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nexa-Trial-Thin.ttf"; sourceTree = "<group>"; };
-		49DC85D5299842AE0084236D /* Nexa-Trial-RegularItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nexa-Trial-RegularItalic.ttf"; sourceTree = "<group>"; };
-		49DC85D6299842AE0084236D /* NexaText-Trial-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NexaText-Trial-Light.ttf"; sourceTree = "<group>"; };
-		49DC85D7299842AE0084236D /* Nexa-Trial-HeavyItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nexa-Trial-HeavyItalic.ttf"; sourceTree = "<group>"; };
-		49DC85D8299842AE0084236D /* Nexa-Trial-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nexa-Trial-LightItalic.ttf"; sourceTree = "<group>"; };
-		49DC85D9299842AE0084236D /* Nexa-Trial-Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nexa-Trial-Book.ttf"; sourceTree = "<group>"; };
-		49DC85DA299842AE0084236D /* Nexa-Trial-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nexa-Trial-Bold.ttf"; sourceTree = "<group>"; };
-		49DC85DB299842AE0084236D /* NexaText-Trial-Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NexaText-Trial-Book.ttf"; sourceTree = "<group>"; };
-		49DC85DC299842AE0084236D /* Nexa-Trial-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nexa-Trial-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
-		49DC85DD299842AE0084236D /* NexaText-Trial-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NexaText-Trial-Bold.ttf"; sourceTree = "<group>"; };
-		49DC85DE299842AE0084236D /* NexaText-Trial-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NexaText-Trial-Thin.ttf"; sourceTree = "<group>"; };
-		49DC85DF299842AE0084236D /* Nexa-Trial-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nexa-Trial-Light.ttf"; sourceTree = "<group>"; };
-		49DC85E0299842AE0084236D /* NexaText-Trial-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NexaText-Trial-Heavy.ttf"; sourceTree = "<group>"; };
-		49DC85E1299842AE0084236D /* Nexa-Trial-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nexa-Trial-BlackItalic.ttf"; sourceTree = "<group>"; };
-		49DC85E2299842AE0084236D /* Nexa-Trial-BookItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nexa-Trial-BookItalic.ttf"; sourceTree = "<group>"; };
-		49DC85E3299842AE0084236D /* NexaText-Trial-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NexaText-Trial-BoldItalic.ttf"; sourceTree = "<group>"; };
-		49DC85E4299842AE0084236D /* Nexa-Trial-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nexa-Trial-Black.ttf"; sourceTree = "<group>"; };
-		49DC85E5299842AE0084236D /* NexaText-Trial-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NexaText-Trial-ThinItalic.ttf"; sourceTree = "<group>"; };
-		49DC85E6299842AE0084236D /* NexaText-Trial-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NexaText-Trial-ExtraBold.ttf"; sourceTree = "<group>"; };
-		49DC85E7299842AE0084236D /* NexaText-Trial-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NexaText-Trial-ExtraLight.ttf"; sourceTree = "<group>"; };
-		49DC85E8299842AE0084236D /* NexaText-Trial-HeavyItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NexaText-Trial-HeavyItalic.ttf"; sourceTree = "<group>"; };
-		49DC85E9299842AE0084236D /* NexaText-Trial-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NexaText-Trial-LightItalic.ttf"; sourceTree = "<group>"; };
-		49DC85EA299842AE0084236D /* NexaText-Trial-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NexaText-Trial-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
-		49DC85EB299842AE0084236D /* NexaText-Trial-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NexaText-Trial-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
-		49DC85EC299842AE0084236D /* NexaText-Trial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NexaText-Trial-Regular.ttf"; sourceTree = "<group>"; };
-		49DC85ED299842AE0084236D /* NexaText-Trial-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NexaText-Trial-BlackItalic.ttf"; sourceTree = "<group>"; };
-		49DC85EE299842AE0084236D /* NexaText-Trial-RegularItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NexaText-Trial-RegularItalic.ttf"; sourceTree = "<group>"; };
-		49DC85EF299842AE0084236D /* Nexa-Trial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nexa-Trial-Regular.ttf"; sourceTree = "<group>"; };
-		49DC85F0299842AE0084236D /* Nexa-Trial-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nexa-Trial-ExtraLight.ttf"; sourceTree = "<group>"; };
-		49DC85F1299842AE0084236D /* Nexa-Trial-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nexa-Trial-ThinItalic.ttf"; sourceTree = "<group>"; };
-		49DC85F2299842AE0084236D /* Nexa-Trial-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nexa-Trial-BoldItalic.ttf"; sourceTree = "<group>"; };
-		49DC85F3299842AE0084236D /* Nexa-Trial-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nexa-Trial-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
-		49DC85F4299842AE0084236D /* NexaText-Trial-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NexaText-Trial-Black.ttf"; sourceTree = "<group>"; };
-		49DC85F5299842AE0084236D /* NexaText-Trial-BookItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NexaText-Trial-BookItalic.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,12 +85,10 @@
 				3099649729981E9500C63269 /* SSOVC.swift */,
 				49DC8579299765F60084236D /* CreateProfileVC.swift */,
 				3099648D2997EBC000C63269 /* AddCarInfoVC.swift */,
-				3099648F2997F41700C63269 /* VC4.swift */,
 				309964932997FC1C00C63269 /* HomeVC.swift */,
 				309964952997FC4300C63269 /* CreateSessionVC.swift */,
 				49DC8566299760910084236D /* Main.storyboard */,
 				49DC856E299760920084236D /* LaunchScreen.storyboard */,
-				3036AB5029986D3E00345239 /* VCConfirmation.swift */,
 				49DC8571299760920084236D /* Info.plist */,
 				49DC8569299760910084236D /* Carson.xcdatamodeld */,
 				309964912997F56800C63269 /* Assets.xcassets */,
@@ -176,61 +96,8 @@
 				309964A52998372B00C63269 /* Car.swift */,
 				3099649F2998358600C63269 /* Session.swift */,
 				309964A1299835D600C63269 /* Status.swift */,
-				49DC85D1299842AE0084236D /* nexa */,
-				49DC8585299842800084236D /* bebas_neue */,
 			);
 			path = Carson;
-			sourceTree = "<group>";
-		};
-		49DC8585299842800084236D /* bebas_neue */ = {
-			isa = PBXGroup;
-			children = (
-				49DC8586299842800084236D /* BebasNeue-Regular.otf */,
-			);
-			path = bebas_neue;
-			sourceTree = "<group>";
-		};
-		49DC85D1299842AE0084236D /* nexa */ = {
-			isa = PBXGroup;
-			children = (
-				49DC85D2299842AE0084236D /* Nexa-Trial-ExtraBold.ttf */,
-				49DC85D3299842AE0084236D /* Nexa-Trial-Heavy.ttf */,
-				49DC85D4299842AE0084236D /* Nexa-Trial-Thin.ttf */,
-				49DC85D5299842AE0084236D /* Nexa-Trial-RegularItalic.ttf */,
-				49DC85D6299842AE0084236D /* NexaText-Trial-Light.ttf */,
-				49DC85D7299842AE0084236D /* Nexa-Trial-HeavyItalic.ttf */,
-				49DC85D8299842AE0084236D /* Nexa-Trial-LightItalic.ttf */,
-				49DC85D9299842AE0084236D /* Nexa-Trial-Book.ttf */,
-				49DC85DA299842AE0084236D /* Nexa-Trial-Bold.ttf */,
-				49DC85DB299842AE0084236D /* NexaText-Trial-Book.ttf */,
-				49DC85DC299842AE0084236D /* Nexa-Trial-ExtraLightItalic.ttf */,
-				49DC85DD299842AE0084236D /* NexaText-Trial-Bold.ttf */,
-				49DC85DE299842AE0084236D /* NexaText-Trial-Thin.ttf */,
-				49DC85DF299842AE0084236D /* Nexa-Trial-Light.ttf */,
-				49DC85E0299842AE0084236D /* NexaText-Trial-Heavy.ttf */,
-				49DC85E1299842AE0084236D /* Nexa-Trial-BlackItalic.ttf */,
-				49DC85E2299842AE0084236D /* Nexa-Trial-BookItalic.ttf */,
-				49DC85E3299842AE0084236D /* NexaText-Trial-BoldItalic.ttf */,
-				49DC85E4299842AE0084236D /* Nexa-Trial-Black.ttf */,
-				49DC85E5299842AE0084236D /* NexaText-Trial-ThinItalic.ttf */,
-				49DC85E6299842AE0084236D /* NexaText-Trial-ExtraBold.ttf */,
-				49DC85E7299842AE0084236D /* NexaText-Trial-ExtraLight.ttf */,
-				49DC85E8299842AE0084236D /* NexaText-Trial-HeavyItalic.ttf */,
-				49DC85E9299842AE0084236D /* NexaText-Trial-LightItalic.ttf */,
-				49DC85EA299842AE0084236D /* NexaText-Trial-ExtraLightItalic.ttf */,
-				49DC85EB299842AE0084236D /* NexaText-Trial-ExtraBoldItalic.ttf */,
-				49DC85EC299842AE0084236D /* NexaText-Trial-Regular.ttf */,
-				49DC85ED299842AE0084236D /* NexaText-Trial-BlackItalic.ttf */,
-				49DC85EE299842AE0084236D /* NexaText-Trial-RegularItalic.ttf */,
-				49DC85EF299842AE0084236D /* Nexa-Trial-Regular.ttf */,
-				49DC85F0299842AE0084236D /* Nexa-Trial-ExtraLight.ttf */,
-				49DC85F1299842AE0084236D /* Nexa-Trial-ThinItalic.ttf */,
-				49DC85F2299842AE0084236D /* Nexa-Trial-BoldItalic.ttf */,
-				49DC85F3299842AE0084236D /* Nexa-Trial-ExtraBoldItalic.ttf */,
-				49DC85F4299842AE0084236D /* NexaText-Trial-Black.ttf */,
-				49DC85F5299842AE0084236D /* NexaText-Trial-BookItalic.ttf */,
-			);
-			path = nexa;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,45 +159,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				49DC8570299760920084236D /* LaunchScreen.storyboard in Resources */,
-				49DC8610299842AE0084236D /* NexaText-Trial-Regular.ttf in Resources */,
-				49DC8609299842AE0084236D /* NexaText-Trial-ThinItalic.ttf in Resources */,
-				49DC8618299842AE0084236D /* NexaText-Trial-Black.ttf in Resources */,
-				49DC8608299842AE0084236D /* Nexa-Trial-Black.ttf in Resources */,
-				49DC8606299842AE0084236D /* Nexa-Trial-BookItalic.ttf in Resources */,
-				49DC85FF299842AE0084236D /* NexaText-Trial-Book.ttf in Resources */,
-				49DC85FC299842AE0084236D /* Nexa-Trial-LightItalic.ttf in Resources */,
-				49DC85F6299842AE0084236D /* Nexa-Trial-ExtraBold.ttf in Resources */,
-				49DC860C299842AE0084236D /* NexaText-Trial-HeavyItalic.ttf in Resources */,
-				49DC85F9299842AE0084236D /* Nexa-Trial-RegularItalic.ttf in Resources */,
-				49DC85FD299842AE0084236D /* Nexa-Trial-Book.ttf in Resources */,
-				49DC8603299842AE0084236D /* Nexa-Trial-Light.ttf in Resources */,
-				49DC8616299842AE0084236D /* Nexa-Trial-BoldItalic.ttf in Resources */,
-				49DC8612299842AE0084236D /* NexaText-Trial-RegularItalic.ttf in Resources */,
-				49DC860D299842AE0084236D /* NexaText-Trial-LightItalic.ttf in Resources */,
-				49DC85FE299842AE0084236D /* Nexa-Trial-Bold.ttf in Resources */,
-				49DC8619299842AE0084236D /* NexaText-Trial-BookItalic.ttf in Resources */,
-				49DC85FB299842AE0084236D /* Nexa-Trial-HeavyItalic.ttf in Resources */,
-				49DC8587299842800084236D /* BebasNeue-Regular.otf in Resources */,
-				49DC85F7299842AE0084236D /* Nexa-Trial-Heavy.ttf in Resources */,
-				49DC8602299842AE0084236D /* NexaText-Trial-Thin.ttf in Resources */,
-				49DC85FA299842AE0084236D /* NexaText-Trial-Light.ttf in Resources */,
-				49DC8617299842AE0084236D /* Nexa-Trial-ExtraBoldItalic.ttf in Resources */,
-				49DC8613299842AE0084236D /* Nexa-Trial-Regular.ttf in Resources */,
-				49DC8601299842AE0084236D /* NexaText-Trial-Bold.ttf in Resources */,
-				49DC8611299842AE0084236D /* NexaText-Trial-BlackItalic.ttf in Resources */,
-				49DC8604299842AE0084236D /* NexaText-Trial-Heavy.ttf in Resources */,
 				49DC8568299760910084236D /* Main.storyboard in Resources */,
-				49DC85F8299842AE0084236D /* Nexa-Trial-Thin.ttf in Resources */,
-				49DC860E299842AE0084236D /* NexaText-Trial-ExtraLightItalic.ttf in Resources */,
-				49DC8600299842AE0084236D /* Nexa-Trial-ExtraLightItalic.ttf in Resources */,
-				49DC8615299842AE0084236D /* Nexa-Trial-ThinItalic.ttf in Resources */,
-				49DC860F299842AE0084236D /* NexaText-Trial-ExtraBoldItalic.ttf in Resources */,
 				309964922997F56900C63269 /* Assets.xcassets in Resources */,
-				49DC860B299842AE0084236D /* NexaText-Trial-ExtraLight.ttf in Resources */,
-				49DC8605299842AE0084236D /* Nexa-Trial-BlackItalic.ttf in Resources */,
-				49DC8614299842AE0084236D /* Nexa-Trial-ExtraLight.ttf in Resources */,
-				49DC860A299842AE0084236D /* NexaText-Trial-ExtraBold.ttf in Resources */,
-				49DC8607299842AE0084236D /* NexaText-Trial-BoldItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,7 +174,6 @@
 				3099648E2997EBC000C63269 /* AddCarInfoVC.swift in Sources */,
 				309964942997FC1C00C63269 /* HomeVC.swift in Sources */,
 				49DC856B299760910084236D /* Carson.xcdatamodeld in Sources */,
-				309964902997F41700C63269 /* VC4.swift in Sources */,
 				3099649829981E9500C63269 /* SSOVC.swift in Sources */,
 				309964962997FC4300C63269 /* CreateSessionVC.swift in Sources */,
 				3099649A299826CA00C63269 /* globalVars.swift in Sources */,
@@ -352,7 +181,6 @@
 				49DC8561299760910084236D /* AppDelegate.swift in Sources */,
 				309964A62998372B00C63269 /* Car.swift in Sources */,
 				309964A2299835D600C63269 /* Status.swift in Sources */,
-				3036AB5129986D3E00345239 /* VCConfirmation.swift in Sources */,
 				3099649C29982C1A00C63269 /* User.swift in Sources */,
 				49DC857A299765F60084236D /* CreateProfileVC.swift in Sources */,
 				49DC8563299760910084236D /* SceneDelegate.swift in Sources */,

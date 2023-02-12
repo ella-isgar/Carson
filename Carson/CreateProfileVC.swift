@@ -26,15 +26,6 @@ class CreateProfileVC: UIViewController {
         super.viewDidLoad()
         
         usernameLabel.text = temp_username
-
-        
-//        fullNameField.text = "Enter name here."
-//
-//        pronounsField.text = "Enter pronouns here."
-//
-//        phoneNumberField.text = "Enter number here."
-//
-//        organizationField.text = "Enter organization here."
         
         isWillingSwitch.isOn = false
     }

@@ -86,7 +86,6 @@
 				49DC8560299760910084236D /* AppDelegate.swift */,
 				49DC8562299760910084236D /* SceneDelegate.swift */,
 				30996499299826CA00C63269 /* globalVars.swift */,
-				49DC8579299765F60084236D /* CreateProfileVC.swift */,
 				3099648D2997EBC000C63269 /* AddCarInfoVC.swift */,
 				309964932997FC1C00C63269 /* HomeVC.swift */,
 				309964952997FC4300C63269 /* CreateSessionVC.swift */,
@@ -102,6 +101,7 @@
 				498866322998C3F300FFF357 /* WelcomeViewController.swift */,
 				498866382998C89400FFF357 /* CreateAccountViewController.swift */,
 				4988663A2998C90300FFF357 /* LogInViewController.swift */,
+				49DC8579299765F60084236D /* CreateProfileVC.swift */,
 			);
 			path = Carson;
 			sourceTree = "<group>";

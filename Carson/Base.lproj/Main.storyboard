@@ -525,8 +525,8 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="Create Account"/>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Welcome Driver!" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="94U-cd-eQY">
-                                <rect key="frame" x="74" y="59" width="249" height="86"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Welcome" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="94U-cd-eQY">
+                                <rect key="frame" x="114" y="59" width="179" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="29"/>

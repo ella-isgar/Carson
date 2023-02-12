@@ -27,7 +27,11 @@ class CreateProfileVC: UIViewController {
         
         usernameLabel.text = temp_username
         
+        organizationField.text = "Northeastern University"
+        
         isWillingSwitch.isOn = false
+        
+        isWillingSwitch.transform = CGAffineTransform(scaleX: 1.50, y: 1.50)
     }
     
     

@@ -23,6 +23,11 @@ class SSOVC: UIViewController {
     @IBAction func didTapSave() {
         temp_username = usernameField.text!
         temp_password = passwordField.text!
+        
+        // intializes mock users
+        users["rodgers_t"] = user1
+        users["lee_a"] = user2
+        users["haly_s"] = user3
     }
 
     /*

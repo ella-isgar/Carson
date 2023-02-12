@@ -13,21 +13,23 @@ var pastSession = [Session]()
 
 class Session {
     var status: Status
-//    var driver: User
     var riders: Array<User>
     var pickupLocations: String
     var dropoffLocations: String
+    var pickupTime: String
+    var dropoffTime: String
 
   init() {
       self.status = Status.SCHEDULED
-//      self.driver = users[temp_username]
       self.riders = [User]()
       self.pickupLocations = ""
       self.dropoffLocations = ""
+      self.pickupTime =  ""
+      self.dropoffTime = ""
   }
 }
 
-func makeSession(passengers: Array<String>, pickupLoc: String, dropoffLoc: String) {
+func makeSession(passengers: Array<String>, pickupLoc: String, dropoffLoc: String, pickupTime: String, dropoffTime: String) {
     
     let newSession = Session()
     
@@ -41,6 +43,9 @@ func makeSession(passengers: Array<String>, pickupLoc: String, dropoffLoc: Strin
     newSession.pickupLocations = pickupLoc
     
     newSession.dropoffLocations = dropoffLoc
+    
+    newSession.pickupTime = pickupTime
+    newSession.dropoffTime = dropoffTime
     
     upcomingSessions.append(newSession)
 }

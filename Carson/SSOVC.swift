@@ -9,30 +9,37 @@ import UIKit
 
 class SSOVC: UIViewController {
     
+    @IBOutlet weak var newLogIn: UIButton!
+    
+    @IBOutlet weak var knownLogIn: UIButton!
+    
     @IBOutlet var usernameField: UITextField!
     
     @IBOutlet var passwordField: UITextField!
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = UIColor(named: "Clear Color")
+        if isKnownUser {
+            knownLogIn.isHidden = false
+            newLogIn.isHidden = true
+        } else {
+            knownLogIn.isHidden = true
+            newLogIn.isHidden = false
+        }
         
+        view.backgroundColor = UIColor(named: "Clear Color")
     }
     
-    @IBAction func didTapSave() {
-        temp_username = usernameField.text!
-        temp_password = passwordField.text!
-    }
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        
+//        temp_username = usernameField.text!
+//        temp_password = passwordField.text!
+//        
+//        print(temp_username)
+//        print(temp_password)
+//        
+//    }
+    
 
 }

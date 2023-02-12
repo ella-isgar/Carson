@@ -39,6 +39,7 @@
 		309964A1299835D600C63269 /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
 		309964A52998372B00C63269 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		494EB8D429989F4300B4257F /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = SOURCE_ROOT; };
+		498866312998BD9200FFF357 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		49DC855D299760910084236D /* Carson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carson.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49DC8560299760910084236D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49DC8562299760910084236D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -199,6 +200,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				49DC8567299760910084236D /* Base */,
+				498866312998BD9200FFF357 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

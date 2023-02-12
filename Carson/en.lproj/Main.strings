@@ -1,0 +1,123 @@
+
+/* Class = "UIButton"; configuration.title = "Log In"; ObjectID = "4z2-jB-jbW"; */
+"4z2-jB-jbW.configuration.title" = "Log In";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "4z2-jB-jbW"; */
+"4z2-jB-jbW.normalTitle" = "Button";
+
+/* Class = "UITextView"; text = "Welcome"; ObjectID = "94U-cd-eQY"; */
+"94U-cd-eQY.text" = "Welcome";
+
+/* Class = "UILabel"; text = "CC Crew:"; ObjectID = "9Cl-Tc-TVX"; */
+"9Cl-Tc-TVX.text" = "CC Crew:";
+
+/* Class = "UILabel"; text = "Year"; ObjectID = "9V7-JJ-4fF"; */
+"9V7-JJ-4fF.text" = "Year";
+
+/* Class = "UILabel"; text = "Starting Destination"; ObjectID = "B0B-zi-yvd"; */
+"B0B-zi-yvd.text" = "Starting Destination";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "EBw-yo-MXM"; */
+"EBw-yo-MXM.text" = "Label";
+
+/* Class = "UITextView"; text = "DYNAMIC HOMEPAGE"; ObjectID = "EIv-Nw-oGz"; */
+"EIv-Nw-oGz.text" = "DYNAMIC HOMEPAGE";
+
+/* Class = "UILabel"; text = "Car Info:"; ObjectID = "EYF-Mx-NkT"; */
+"EYF-Mx-NkT.text" = "Car Info:";
+
+/* Class = "UILabel"; text = "Pronouns:"; ObjectID = "GqC-tu-Arl"; */
+"GqC-tu-Arl.text" = "Pronouns:";
+
+/* Class = "UILabel"; text = "Start Address:"; ObjectID = "Gy6-1e-9bl"; */
+"Gy6-1e-9bl.text" = "Start Address:";
+
+/* Class = "UILabel"; text = "Leave By:"; ObjectID = "Ha0-C8-N9z"; */
+"Ha0-C8-N9z.text" = "Leave By:";
+
+/* Class = "UIButton"; configuration.title = "Add user"; ObjectID = "KwF-SU-Tyn"; */
+"KwF-SU-Tyn.configuration.title" = "Add user";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "KwF-SU-Tyn"; */
+"KwF-SU-Tyn.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Destination Address:"; ObjectID = "OdA-ZW-m1k"; */
+"OdA-ZW-m1k.text" = "Destination Address:";
+
+/* Class = "UILabel"; text = "Phone Number:"; ObjectID = "OkW-kp-Uq1"; */
+"OkW-kp-Uq1.text" = "Phone Number:";
+
+/* Class = "UILabel"; text = "Username:"; ObjectID = "Rz4-1x-8Cu"; */
+"Rz4-1x-8Cu.text" = "Username:";
+
+/* Class = "UILabel"; text = "Color"; ObjectID = "WBa-EP-NQu"; */
+"WBa-EP-NQu.text" = "Color";
+
+/* Class = "UIButton"; normalTitle = "SIGN UP"; ObjectID = "Wgi-qH-NQZ"; */
+"Wgi-qH-NQZ.normalTitle" = "SIGN UP";
+
+/* Class = "UILabel"; text = "Capacity"; ObjectID = "Zgx-mK-yBa"; */
+"Zgx-mK-yBa.text" = "Capacity";
+
+/* Class = "UITextView"; text = "Basic Info"; ObjectID = "aBI-Pb-jWX"; */
+"aBI-Pb-jWX.text" = "Basic Info";
+
+/* Class = "UIButton"; configuration.title = "Create Account"; ObjectID = "apm-wT-lRJ"; */
+"apm-wT-lRJ.configuration.title" = "Create Account";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "apm-wT-lRJ"; */
+"apm-wT-lRJ.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Log In"; ObjectID = "cKH-Kb-2Fh"; */
+"cKH-Kb-2Fh.configuration.title" = "Log In";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "cKH-Kb-2Fh"; */
+"cKH-Kb-2Fh.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Arrive By:"; ObjectID = "cVV-Lu-Nvy"; */
+"cVV-Lu-Nvy.text" = "Arrive By:";
+
+/* Class = "UIButton"; normalTitle = "LOG IN"; ObjectID = "fAU-ef-9uZ"; */
+"fAU-ef-9uZ.normalTitle" = "LOG IN";
+
+/* Class = "UIButton"; configuration.title = "Create Invite!"; ObjectID = "fd9-J2-mJe"; */
+"fd9-J2-mJe.configuration.title" = "Create Invite!";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "fd9-J2-mJe"; */
+"fd9-J2-mJe.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Current Users:"; ObjectID = "huj-L4-v7c"; */
+"huj-L4-v7c.text" = "Current Users:";
+
+/* Class = "UILabel"; text = "Organization:"; ObjectID = "igo-pM-1Cy"; */
+"igo-pM-1Cy.text" = "Organization:";
+
+/* Class = "UIButton"; configuration.title = "Next"; ObjectID = "kLP-i5-6ef"; */
+"kLP-i5-6ef.configuration.title" = "Next";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "kLP-i5-6ef"; */
+"kLP-i5-6ef.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Confirmation of Carpool"; ObjectID = "mIC-nJ-7bS"; */
+"mIC-nJ-7bS.text" = "Confirmation of Carpool";
+
+/* Class = "UITextView"; text = "Create a private Carson carpool session!"; ObjectID = "pCn-vX-aRu"; */
+"pCn-vX-aRu.text" = "Create a private Carson carpool session!";
+
+/* Class = "UILabel"; text = "Make"; ObjectID = "qFN-P8-0nP"; */
+"qFN-P8-0nP.text" = "Make";
+
+/* Class = "UIButton"; configuration.title = "Create Session"; ObjectID = "r2G-W4-JYv"; */
+"r2G-W4-JYv.configuration.title" = "Create Session";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "r2G-W4-JYv"; */
+"r2G-W4-JYv.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Full Name:"; ObjectID = "seb-2a-aYW"; */
+"seb-2a-aYW.text" = "Full Name:";
+
+/* Class = "UILabel"; text = "Model"; ObjectID = "skw-ed-sCC"; */
+"skw-ed-sCC.text" = "Model";
+
+/* Class = "UILabel"; text = "License Plate"; ObjectID = "uic-cc-YKh"; */
+"uic-cc-YKh.text" = "License Plate";

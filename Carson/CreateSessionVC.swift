@@ -18,13 +18,15 @@ class CreateSessionVC: UIViewController {
     
     @IBOutlet weak var riders: UITextView!
     
+    @IBOutlet weak var leaveTime: UIDatePicker!
     
+    @IBOutlet weak var arriveTime: UIDatePicker!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        print(upcomingSessions)
+        
     }
     
     /*
@@ -54,30 +56,27 @@ class CreateSessionVC: UIViewController {
     */
     
     @IBAction func createSession(_ sender: Any) {
-        makeSession(passengers: [String](), pickupLoc: startField.text!, dropoffLoc: destField.text!)
+        makeSession(passengers: [String](), pickupLoc: startField.text!, dropoffLoc: destField.text!, pickupTime: leaveTime.date.formatted(), dropoffTime: arriveTime.date.formatted())
         print(upcomingSessions)
     }
     
     @IBAction func addRider() {
         var size = upcomingSessions.count
-        print("USERS")
-        print(users.count)
-        print(size)
-        print("HELP")
-        print(ridersField.text!)
         if (users[ridersField.text!] != nil) {
             let u = users[ridersField.text!]!
             upcomingSessions[size - 1].riders.append(u)
             riders.text = riders.text + "\n" + ridersField.text! + " or " + u.name + " was added."
         } else {
-            
-            print("NOT FOUND")
-            
+            var dialogMessage = UIAlertController(title: "Error", message: "User was not found :(", preferredStyle: .alert)
+            let ok = UIAlertAction(title: "OK", style: .default, handler: { (action) -> Void in
+                print("Ok button tapped")
+             })
+            //Add OK button to a dialog message
+            dialogMessage.addAction(ok)
+            // Present Alert to
+            self.present(dialogMessage, animated: true, completion: nil)
         }
         ridersField.text = ""
-        print(size)
-        print("RIDERS")
-        print(upcomingSessions[0].riders)
     }
  
 }

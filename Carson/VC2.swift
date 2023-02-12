@@ -8,19 +8,40 @@
 import UIKit
 
 class VC2: UIViewController {
+
     
-    @IBOutlet var label: UILabel!
-    @IBOutlet var fullNameField: UITextField!
+    @IBOutlet weak var usernameLabel: UILabel!
+    
+    @IBOutlet weak var fullNameField: UITextField!
+    
+    @IBOutlet weak var pronounsField: UITextField!
+    
+    @IBOutlet weak var phoneNumberField: UITextField!
+    
+    @IBOutlet weak var organizationField: UITextField!
+
+    @IBOutlet weak var isWillingSwitch: UISwitch!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        label.text = username
+        
+        usernameLabel.text = temp_username
+
+        
+        fullNameField.text = "Enter name here."
+        
+        pronounsField.text = "Enter pronouns here."
+        
+        phoneNumberField.text = "Enter number here."
+        
+        organizationField.text = "Enter organization here."
+        
+        isWillingSwitch.isOn = false
     }
     
-    @IBAction func didTapSave() {
-        full_name = fullNameField.text!
+    
+    @IBAction func createUserProfile(_ sender: Any) {
         
+        createUser(org: organizationField.text!, name: fullNameField.text!, pro: pronounsField.text!, num: phoneNumberField.text!, isWilling: isWillingSwitch.isOn)
     }
 }
-
-

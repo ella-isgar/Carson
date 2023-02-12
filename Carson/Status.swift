@@ -8,7 +8,7 @@
 import Foundation
 
 enum Status {
-  case scheduled
-  case inprogress
-  case finished
+  case SCHEDULED
+  case IN_PROGRESS
+  case FINISHED
 }

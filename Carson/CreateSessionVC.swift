@@ -9,10 +9,19 @@ import UIKit
 
 class CreateSessionVC: UIViewController {
     
+    /*
     @IBOutlet var userField: UITextField!
     
     
     @IBOutlet weak var label: UITextView!
+    
+    @IBOutlet var startField: UITextField!
+    
+    @IBOutlet var destField: UITextField!
+    
+    
+    
+    var driver = Driver(user: current_user, car: current_car)
     
     
     // The moment after the segue happens to this view.
@@ -22,25 +31,17 @@ class CreateSessionVC: UIViewController {
     }
     
     @IBAction func didTapSave() {
-        current_user = userField.text!
+        current_user.start = startField.text!
+        current_user.dest = destField.text!
+        current_user_in_session = current_user_in_session + "\n" + userField.text!
+        userField.text = ""
         updateUserList()
     }
     
     func updateUserList() {
-        label.text = current_user
-    }
-    
-    
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        label.text = current_user_in_session
     }
     */
+
 
 }

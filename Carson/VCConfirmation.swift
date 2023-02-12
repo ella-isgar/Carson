@@ -1,5 +1,5 @@
 //
-//  SSOVC.swift
+//  VCConfirmation.swift
 //  Carson
 //
 //  Created by Annika Chang on 2/11/23.
@@ -7,20 +7,17 @@
 
 import UIKit
 
-class SSOVC: UIViewController {
+class VCConfirmation: UIViewController {
     
-    @IBOutlet var usernameField: UITextField!
     
-    @IBOutlet var passwordField: UITextField!
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+
+        // Do any additional setup after loading the view.
     }
     
-    @IBAction func didTapSave() {
-        temp_username = usernameField.text!
-        temp_password = passwordField.text!
-    }
 
     /*
     // MARK: - Navigation

@@ -11,12 +11,16 @@ class Car {
     var make: String
     var model: String
     var color: String
-    var year: Int
+    var year: String
+    var license: String
+    var capacity: String
     
-    init(make: String, model: String, color: String, year: Int) {
-        self.make = make
-        self.model = model
-        self.color = color
-        self.year = year
+    init() {
+        self.make = ""
+        self.model = ""
+        self.color = ""
+        self.year = ""
+        self.license = ""
+        self.capacity = ""
     }
 }

@@ -7,16 +7,39 @@
 
 import Foundation
 
+var upcomingSessions = [Session]()
+var currentSession = Session()
+var pastSession = [Session]()
+
 class Session {
-    var riders: Array<User>
-    var driver: Driver
     var status: Status
+    var driver: User
+    var riders: Array<User>
+    var pickupLocations: String
+    var dropoffLocations: String
 
-
-  init(riders: Array<User>, driver:Driver, status: Status) {
-    self.riders = riders
-    self.driver = driver
-    self.status = status
+  init() {
+      self.status = Status.SCHEDULED
+      self.driver = User()
+      self.riders = [User]()
+      self.pickupLocations = ""
+      self.dropoffLocations = "String"
   }
 }
 
+func makeSession(driverName: String, passengers: Array<String>, pickupLoc: String, dropoffLoc: String) {
+    
+    var newSession = Session()
+    
+    newSession.status = Status.SCHEDULED
+    
+    newSession.driver = users[driverName]!
+    
+    for name in passengers {
+        newSession.riders.append(users[name]!)
+    }
+    
+    newSession.pickupLocations = pickupLoc
+    
+    newSession.dropoffLocations = dropoffLoc
+}
